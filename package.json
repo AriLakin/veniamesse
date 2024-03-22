@@ -1,0 +1,62 @@
+{
+  "name": "veniamesse",
+  "description": "Multiplatform slide-over pane",
+  "version": "1.10.0",
+  "author": "MarcelleStark",
+  "homepage": "https://github.com/AriLakin/veniamesse.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AriLakin/veniamesse.git"
+  },
+  "license": "MIT",
+  "main": "dist/cupertino-pane.min.js",
+  "module": "dist/cupertino-pane.esm.bundle.js",
+  "types": "dist/cupertino-pane.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "tslint": "tslint src/**/*.ts",
+    "dev": "gulp build && gulp server"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "glob": "^7.1.6",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-open": "^3.0.1",
+    "rollup": "^1.27.5",
+    "rollup-plugin-typescript2": "0.26.0",
+    "terser": "^4.4.0",
+    "tslib": "^1.10.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/AriLakin/veniamesse.git/issues"
+  },
+  "browserslist": [
+    "Android >= 7",
+    "IOS >= 11",
+    "Safari >= 11",
+    "Chrome >= 49",
+    "Firefox >= 31",
+    "Samsung >= 5"
+  ],
+  "keywords": [
+    "app",
+    "cupertino",
+    "quaerat",
+    "web",
+    "laborum",
+    "maps",
+    "javascript",
+    "sunt",
+    "consequuntur",
+    "mobile",
+    "pariatur",
+    "plugin"
+  ],
+  "dependencies": {
+    "dolorumquos": "^1.0.0",
+    "voluptatibussunt": "^1.0.0"
+  }
+}
